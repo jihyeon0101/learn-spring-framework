@@ -3,8 +3,10 @@ package com.springclass.learn_spring_framework.examples.c1;
 import java.util.Arrays;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+//@Component
+@Service //@Component 대신에 @Service 사용
 public class BusinessCalculationService {
 	
 	private DataService dataService; // 인터페이스 가져오기
